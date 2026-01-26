@@ -30,7 +30,7 @@ python check_vm_all.py
 
 ```bash
 git clone https://github.com/adjuster2004/api_opennebula/
-cd /api_opennebula
+cd api_opennebula
 ```
 
 ## 📄 Лицензия
