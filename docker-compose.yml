@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  opennebula-manager:
+    build: .
+    container_name: opennebula_manager
+    # Пробрасываем текущую папку (где лежит docker-compose) внутрь контейнера в /app
+    # Благодаря этому скрипт увидит config.py, а CSV-файлы сохранятся прямо у вас в Windows
+    volumes:
+      - .:/app
+    # По умолчанию запускаем основной скрипт
+    command: python check_vm_all.py
