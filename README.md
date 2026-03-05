@@ -36,6 +36,12 @@ git clone https://github.com/adjuster2004/api_opennebula/
 cd api_opennebula
 ```
 
+### Использовать в контейнере
+
+```bash
+ docker-compose up --build
+```
+
 ## 📄 Лицензия
 Этот проект распространяется под лицензией **MIT**.
 
