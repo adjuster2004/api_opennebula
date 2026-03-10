@@ -28,6 +28,12 @@ python check_vm_all.py
 ``` 
 - **Открыть** файл vm_list_export.csv
 
+или
+
+```bash
+docker compose up
+```
+
 
 ### 👥 Клонирование репозитория
 
