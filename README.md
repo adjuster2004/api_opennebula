@@ -23,17 +23,18 @@ python3 check_vm_all.py
 
 или
 
-  ```bash
-python check_vm_all.py
-``` 
-- **Открыть** файл vm_list_export.csv
-
-или
-
 ```bash
 docker compose up
 ```
 
+или
+
+  ```bash
+python check_vm_all.py
+``` 
+
+
+- **Открыть** файл vm_list_export.xlsx
 
 ### 👥 Клонирование репозитория
 
